@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - myApp:
+      Type: Kubernetes
+      Properties:
+        Name: nodejs-deployment
+        Namespace: default
+        ResourceType: manifest
+        Path: k8s/
